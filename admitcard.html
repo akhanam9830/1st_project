@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admit Card</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1>Admit Card</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="application.html">Application Form</a>
+            <a href="payment.html">Payment of Fees</a>
+            <a href="admissions.html">Admissions</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <button id="generateCard">Generate Admit Card</button>
+        <a id="downloadLink" href="#" download="admit-card.pdf" style="display:none;">Download Admit Card</a>
+    </main>
+    <footer>
+        <p>&copy; 2024Nshm Knowledge Campus</p>
+    </footer>
+    <script src="admitcard.js"></script>
+</body>
+</html>
